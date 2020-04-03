@@ -1,0 +1,259 @@
+:root {
+  --light-background: #F0F0F2;
+  --medium-background: #A3C9D9;
+  --dark-background: #3498BF;
+
+  --light-font: #F3F3F3;
+  --medium-font: #555555;
+  --dark-font: #333333;
+
+  --delete-color: #583c3c;
+  --delete-background: #eac1c1;
+  --delete-color-hover: #560000;
+  --delete-background-hover: #e46c6c;
+
+  --button-color: #3c5158;
+  --button-background: #cfdce2;
+  --button-color-hover: #04252f;
+  --button-background-hover: #60a9c8;
+}
+
+.App {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input {
+  width: 90%;
+  text-align: right;
+  font-size: 2em;
+  display: block;
+  margin : 0 auto;
+}
+
+.information-header {
+  font-weight: 400;
+  font-size: 1.3em;
+  padding: 0.1em;
+  margin-top: 0.5em;
+  background-color: var(--delete-background-hover);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.information {
+  padding: 0.1em;
+  margin: 0em;
+  background-color: var(--delete-background);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.app-header {
+  font-size: 2em;
+  padding: 0.7em;
+}
+
+.instructions {
+  margin : 0 auto;
+  width: 90%;
+  background-color: var(--dark-background);
+  color: var(--light-font);
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.debts-container {
+  background-color: var(--light-background);
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.debt-grid-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 6.5em;
+}
+
+.debt-grid-header {
+  position: relative;
+  top: 0.3em;
+  color: var(--medium-font);
+}
+
+.debt-grid-column > input {
+  margin-top: 0.25em;
+  margin-bottom: 0.65em;
+}
+
+.debt-actions {
+  padding-top: 0.5em;
+  padding-bottom: 1.3em;
+}
+
+.button {
+  font-size: 1.8em;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
+  border-style: none;
+  display: inline-block;
+  margin : 0.1em 0.25em 0.1em 0.1em;
+  fill: currentColor;
+  background-color: var(--button-background);
+  color: var(--button-color);
+  transition: color .35s ease-in-out, background-color .35s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--button-background-hover);
+  color: var(--button-color-hover);
+}
+
+.button.delete-button {
+  background-color: var(--delete-background);
+  color: var(--delete-color);
+}
+
+.button.delete-button:hover {
+  background-color: var(--delete-background-hover);
+  color: var(--delete-color-hover);
+}
+
+.button.add-button {
+  margin: 0em;
+  margin-bottom: 0.5em;
+}
+
+.button > svg {
+  height: 0.8em;
+  width: 0.8em;
+}
+
+.total {
+  white-space: nowrap;
+  font-size: 1.8em;
+  text-align: right;
+  margin : 1em auto;
+  width: 85%;
+  background-color: var(--medium-background);
+}
+
+.total > span {
+  background-color: var(--dark-background);
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  color: var(--light-font);
+}
+
+.surplus-settings {
+  width: 80%;
+  margin : 0em auto;
+}
+
+.allocation, .prioritization {
+  width: 50%;
+  display: inline-block;
+  vertical-align: bottom;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.allocation {
+  transform: translate(50%);
+}
+
+.uses-priority .allocation {
+  transform: translate(0);
+}
+
+.prioritization {
+  transform: translate(-50%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.uses-priority .prioritization {
+  transform: translate(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.allocation > p, .prioritization > p {
+  background-color: var(--dark-background);
+  font-size: 1.2em;
+  margin : 0.5em auto 0em;
+  color: var(--light-font);
+  width: 85%;
+}
+
+.surplus-settings select {
+  width: 85%;
+  background-color: var(--medium-background);
+  border-style: none;
+  padding: 0.4em;
+  font-weight: 400;
+  color: var(--dark-font)
+}
+
+.payment {
+  background-color: var(--dark-background);
+  width: 80%;
+  margin : 2em auto 0em;
+  padding: 0.2em;
+}
+
+.payment > p {
+  font-size: 1.8em;
+  width: 100%;
+  background-color: var(--dark-background);
+  margin : 0em auto 0.2em;
+  color: var(--light-font);
+}
+
+.payment > input {
+  width: 100%;
+  border-style: none;
+  text-align: center;
+}
+
+.projection {
+  width: 75%;
+  background-color: var(--medium-background);
+  font-size: 1.8em;
+  margin : 1em auto;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.projection:not(:empty) {
+  border-style: solid;
+  border-width: 4px;
+  border-color: var(--dark-background);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.disclaimer, .credit {
+  font-size: 0.7em;
+  width: 95%;
+  margin : 1em auto;
+}
