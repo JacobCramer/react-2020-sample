@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d165e617.chunk.css",
-    "main.js": "/static/js/main.2e24ee7a.chunk.js",
-    "main.js.map": "/static/js/main.2e24ee7a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.36c35303.js",
-    "runtime-main.js.map": "/static/js/runtime-main.36c35303.js.map",
-    "static/js/2.52d59eb3.chunk.js": "/static/js/2.52d59eb3.chunk.js",
-    "static/js/2.52d59eb3.chunk.js.map": "/static/js/2.52d59eb3.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.fba4d8a904ff220b79e90315ba70e546.js": "/precache-manifest.fba4d8a904ff220b79e90315ba70e546.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d165e617.chunk.css.map": "/static/css/main.d165e617.chunk.css.map",
-    "static/js/2.52d59eb3.chunk.js.LICENSE.txt": "/static/js/2.52d59eb3.chunk.js.LICENSE.txt",
-    "static/media/delete.aeec2863.svg": "/static/media/delete.aeec2863.svg",
-    "static/media/move.5ad085c3.svg": "/static/media/move.5ad085c3.svg"
+    "main.css": "/react-2020-sample/static/css/main.d165e617.chunk.css",
+    "main.js": "/react-2020-sample/static/js/main.06e082ed.chunk.js",
+    "main.js.map": "/react-2020-sample/static/js/main.06e082ed.chunk.js.map",
+    "runtime-main.js": "/react-2020-sample/static/js/runtime-main.57c2589a.js",
+    "runtime-main.js.map": "/react-2020-sample/static/js/runtime-main.57c2589a.js.map",
+    "static/js/2.52d59eb3.chunk.js": "/react-2020-sample/static/js/2.52d59eb3.chunk.js",
+    "static/js/2.52d59eb3.chunk.js.map": "/react-2020-sample/static/js/2.52d59eb3.chunk.js.map",
+    "index.html": "/react-2020-sample/index.html",
+    "precache-manifest.1d555db35efeea5c6b51ede40a11d13c.js": "/react-2020-sample/precache-manifest.1d555db35efeea5c6b51ede40a11d13c.js",
+    "service-worker.js": "/react-2020-sample/service-worker.js",
+    "static/css/main.d165e617.chunk.css.map": "/react-2020-sample/static/css/main.d165e617.chunk.css.map",
+    "static/js/2.52d59eb3.chunk.js.LICENSE.txt": "/react-2020-sample/static/js/2.52d59eb3.chunk.js.LICENSE.txt",
+    "static/media/delete.aeec2863.svg": "/react-2020-sample/static/media/delete.aeec2863.svg",
+    "static/media/move.5ad085c3.svg": "/react-2020-sample/static/media/move.5ad085c3.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.36c35303.js",
+    "static/js/runtime-main.57c2589a.js",
     "static/js/2.52d59eb3.chunk.js",
     "static/css/main.d165e617.chunk.css",
-    "static/js/main.2e24ee7a.chunk.js"
+    "static/js/main.06e082ed.chunk.js"
   ]
 }
