@@ -1,6 +1,6 @@
 #Jacob Cramer 2020 Code Sample
 
-This is a sample of my work, intended to show my skills with the **JavaScript** language when developing for a browser environment. While I've prettied things up with a bit of CSS, the focus is on the JavaScript components. This particular variation is built using **React** and **Redux** in an **ES9** environment.
+This is a small sample of my work, put together over the course of about two days. It is intended to show my skills with the **JavaScript** language when developing for a browser environment. While I've prettied things up with a bit of CSS, the focus is on the JavaScript components. This particular variation is built using **React** and **Redux** in an **ES9** environment.
 
 For convenience, this repo has been pushed with a pre-built version included, allowing you to view the page as is without needing to install the development environment. **You can also view a live version of the page [here](https://jacobcramer.github.io/react-2020-sample/).**
 
